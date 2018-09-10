@@ -153,3 +153,18 @@ plot(model1)
 
 ![png](output_12_0.png)
 
+
+
+```R
+uhat<-resid(model1)
+```
+
+
+```R
+hist(uhat, prob=TRUE,col="Blue")
+lines(density(uhat))
+```
+
+
+![png](output_14_0.png)
+
